@@ -1,0 +1,12 @@
+CREATE TABLE tasks (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    title NVARCHAR(255) NOT NULL,
+    description NVARCHAR(MAX) NULL,
+    status NVARCHAR(50) NOT NULL,
+    priority NVARCHAR(20) NULL,
+    category NVARCHAR(50) NULL,
+    assignee NVARCHAR(50) NULL,
+    dueDate DATE NULL,
+    createdAt DATETIME NOT NULL DEFAULT GETDATE(),
+    updatedAt DATETIME NOT NULL DEFAULT GETDATE()
+);
