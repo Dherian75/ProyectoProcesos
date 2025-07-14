@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1752506872133,
+    "title": "dsadasda",
+    "status": "en-progreso",
+    "priority": "media",
+    "category": "ventas",
+    "dueDate": "2025-07-16",
+    "assignee": "vendedor",
+    "description": "dasda"
+  },
+  {
+    "id": 1752506896860,
+    "title": "dsadasdadadasd",
+    "status": "completada",
+    "priority": "alta",
+    "category": "ventas",
+    "dueDate": "2025-07-03",
+    "assignee": "cliente",
+    "description": "Hola"
+  }
+]
